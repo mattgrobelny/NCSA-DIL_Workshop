@@ -93,4 +93,14 @@ Intro to:
 - **Validation Interval** - The frequency, in epochs, that the accuracy of the model is computed against the validation data.  This is important so you can monitor the progress of your training sessions.
 - **Random Seed** - Specifies the value of seed should be used by the random number generator.  By setting this value, then the initial model will be randomize to the same state for different training sessions.
 - **Batch Size** - The batch size is the number of images to use at one time.  The larger the batch size, the more parallelism that can be achieved and the faster the training will progress.  The batch size will be constrained by the size of available memory in your GPU.  You typically want to use the largest value possible.
-- **Base Learning Rate** - This value specifies at what rate the network will learn. The weights of the model are found using some gradient descent method.  The value describes the size of the step to be taken for each iteration.  Too large of a value and the weights will change too quickly and the model may not converge.  Too small of a value and the solution will take longer to converge. 
+- **Base Learning Rate** - This value specifies at what rate the network will learn. The weights of the model are found using some gradient descent method.  The value describes the size of the step to be taken for each iteration.  Too large of a value and the weights will change too quickly and the model may not converge.  Too small of a value and the solution will take longer to converge.
+
+## Lunch Break
+
+Improving MNIST training:
+- Inverse black and white color
+
+# Object Detection
+- R-CNN = Region CNN
+
+Working with varying size images: Fully- Convolutional Network 
